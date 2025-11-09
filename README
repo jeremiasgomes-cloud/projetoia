@@ -1,0 +1,59 @@
+# Sistema de Inteligência Artificial
+
+Este projeto apresenta um sistema completo de **Inteligência Artificial em Python**, integrando **aprendizado supervisionado, não supervisionado e processamento de linguagem natural (NLP)**.  
+Foram implementados **modelos de classificação, regressão, clustering (agrupamento)** e um **chatbot inteligente** capaz de aprender novas respostas conforme interage com o usuário.
+
+# Funcionalidades
+
+# Classificação
+- Utiliza o **dataset Iris** do `sklearn`.
+- Modelo: **Regressão Logística**.
+- Exibe **fronteira de decisão** e **matriz de confusão**.
+
+# Regressão
+- Gera dados sintéticos com `make_regression`.
+- Modelo: **Regressão Linear**.
+- Exibe gráfico de dispersão com a **linha de tendência** e calcula o **MSE**.
+
+# Clustering
+- Agrupa dados com **K-Means** (3 clusters).
+- Exibe o **gráfico dos agrupamentos** e os **centros encontrados**.
+
+# Chatbot Inteligente
+- Baseado em **TF-IDF + Similaridade de Cosseno**.
+- Responde perguntas comuns e aprende novas respostas informadas pelo usuário.
+- Armazena o novo conhecimento em um arquivo local (`conhecimento.txt`).
+
+# Como Executar
+
+1. *Clone o repositório:*
+   ```bash
+   git clone https://github.com/jeremias-ai/Sistema_de_Inteligencia_Artificial.git
+   cd Sistema_de_Inteligencia_Artificial
+
+Instale as dependências:
+pip install -r requirements.txt
+
+Execute o script principal (modo terminal):
+python chatbot/chatbot.py
+
+Para rodar os exemplos de IA (gráficos):
+python IA/modelo_classificacao.py
+python IA/modelo_regressao.py
+python IA/modelo_clusterizacao.py
+
+Exemplo de interação:
+=== Chatbot Ativo ===
+Digite 'sair' para encerrar.
+
+Você: oi
+Chatbot: Oi! Como você está?
+
+Você: quem criou você?
+Chatbot: Desculpe, não entendi o que você quis dizer 
+(Usuário: foi Jeremias que me criou)
+Chatbot: Entendido! Agora aprendi que "quem criou você" → "foi Jeremias que me criou".
+
+
+
+
