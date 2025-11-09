@@ -28,7 +28,7 @@ Foram implementados **modelos de classificação, regressão, clustering (agrupa
 
 1. *Clone o repositório:*
    ```bash
-   git clone https://github.com/jeremias-ai/Sistema_de_Inteligencia_Artificial.git
+   git clone jeremiasgomes-cloud/projetoia
    cd Sistema_de_Inteligencia_Artificial
 
 Instale as dependências:
